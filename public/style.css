@@ -1,3 +1,89 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
 body {
-    background-color: aquamarine;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+/* Cabeçalho */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+}
+.header .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+.header .menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.header .menu a {
+    color: white;
+    text-decoration: none;
+}
+.header .actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.search-form input {
+    padding: 5px;
+}
+.search-form button {
+    padding: 5px 10px;
+}
+
+/* Banner */
+.banner {
+    text-align: center;
+    padding: 40px;
+    background: #f4f4f4;
+}
+
+/* Galeria */
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.card {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.card p {
+    font-size: 14px;
+    padding: 0 10px 15px;
+}
+
+/* Rodapé */
+.footer {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
 }

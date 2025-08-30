@@ -8,15 +8,15 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Caio Fernandes de Albuquerque
+- Matricula: 901324
+- Proposta de projeto escolhida: clone da loja da arc,teryx
+- Breve descrição sobre seu projeto: usei a pagian de compras dele como inspriração para meu projeto, usando a aba masculino, feminino, calçados e descobrir para dar um visual bom para a pagina.
 
 
 ## Print do(s) wireframe(s) criado
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](image.png)
 
 
 ## Print da home-page criada
